@@ -1,0 +1,63 @@
+Texte de la page INDEX :
+
+Bienvenue sur le site de ressources de Nao de la section BTS SN de Bar le Duc	
+			
+Présentation
+Le projet consiste à centraliser toutes les ressources concernant le robot Nao.
+Ce site sera mise a jour durant toute l'année scolaire, en lien avec les activités pédagogiques enseignées.
+			
+Historique
+Le robot NAO, créé en France, a été présenté pour la première fois au public fin 2006. Il remplace à compter du 15 août 2007 le chien robot Aibo de Sony comme plateforme standard de la RoboCup, manifestation annuelle qui se présente comme la Coupe du Monde de Robotique8.
+Fin 2008, les versions Academics de NAO sont lancées pour permettre aux enseignants et aux chercheurs d'utiliser la plateforme robotique NAO dans les universités, établissements d'enseignement et les laboratoires de recherches.
+Mi 2009, une première beta-test a permis à une trentaine de personnes de tester la version V3+.
+Le 21 juin 2010, NAO est en démonstration à l'exposition universelle de Shanghai9. En octobre 2010, l'université de Tokyo annonce l'acquisition de trente robots NAO pour ses laboratoires de recherche10.<
+Près de 4 500 plateformes robotiques NAO avaient été vendues à la fin de 2013, principalement à des laboratoires de recherche11.
+En septembre 2013, il est le premier robot reçu au Palais de l'Élysée par le président de la république, François Hollande12. La même année, Blanca Li réalise un spectacle avec NAO, intitulé Robot !, pour le Festival Montpellier Danse et la deuxième édition de la « Fête de la Danse » au Grand Palais (Paris)
+
+Aldebaran
+Le 13 mars 2012, le Financial Times annonça le rachat d'Aldebaran Robotics pour cent millions de dollars par la société japonaise SoftBank. Malgré le démenti apporté par la société, d'autres sites d'actualités relaieront quand même cette rumeur10. La suite démontra toutefois que ces échos étaient fondés : le 5 juin 2014 Aldebaran Robotics annonce avec SoftBank la commercialisation de Pepper au Japon, un robot humanoïde d'un mètre vingt11. Aldebaran confirme par la même occasion être détenu à hauteur de 78,5 % de son capital par Softbank12. C'est à cette époque que la société change de nom qui devient simplement « Aldebaran ».
+Bien qu'ayant contribué à faire changer de dimension Aldebaran Robotics, ce rachat est toutefois fortement critiqué par certains qui accusent Softbank d'obérer l'avenir d'Aldebaran par des transferts de technologies-clés vers l'étranger et un recentrage injustifié des activités de la firme autour de Pepper. Cette dernière est quant à elle décrite comme victime d'un management peu performant qui conduirait entre autres à un important turnover13. 
+Cependant, les nombreux partenariats industriels et de recherche d'Aldebaran 14, le dynamisme des A-Labs (laboratoires de recherche internes à l'entreprise en intelligence artificielle et en mécatronique) ainsi que le développement du robot Romeo, annoncé comme révolutionnaire, viennent largement tempérer ces témoignages. Par ailleurs, fut lancée avec succès en 2013 l'initiative Autism Solution for Kids (ASK NAO), proposant d'après la société une « nouvelle approche pédagogique aux enseignants et aux enfants atteints d'autisme grâce à la robotique. » Enfin, Aldebaran annonça en 2014 disposer d'une communauté de quatre cents développeurs actifs, et avoir vendu au total plus de cinq mille NAO.
+En mars 2015, la société japonaise SoftBank rachète les parts de Bruno Maisonnier et monte ainsi à 96 % du capital d'Aldebaran. Le Japonais Fumihide Tomizawa, président de SoftBank Robotics, est nommé PDG d'Aldebaran.
+En mai 2016, la société dont l'exploitation reste déficitaire, est rebaptisée SoftBank Robotics Europe15. 
+
+				
+Site à visée dédagogique pour les étudiants de BTS CIEL du lycée Poincaré de Bar le Duc
+Le contenu de ce site n'est pas destiné à une publication sur internet
+
+Texte de la page PRESENTATION :
+
+Présentation de Nao
+		
+NAO est un robot humanïde programmable de 58 cm de haut intégrant les composants suivants:
+1. Corps avec 25 degrés de liberté (DDL) dont les principaux éléments sont de smoteurs et actionneurs électriques
+2. Réseau de capteurs; 2 caméras, 4microphones directionnels, télémètre sonar, 2 émetteurs et récepteurs IR, 1 carte inertielle, 9 capteurs tactiles et 8 capteurs de pression
+3. Différents dispositifs de communication incluant synthetiseur vocal, lampes LED et 2 haut-parleurs haute-fidélité.
+4. Processeur Intel ATOM 1,6 GHz (situé dans la tête) exploitant un noyau Linux et supportant le middleware exclusif d'Aldebaran (NAOqi).
+5. Second CPU (situé dans le torse)</p>
+6. Batterie de 48.6 watt-heure conférant é NAO 1,5 heures ou plus d'autonomie, en fonction de l'usage
+			
+Agile
+
+NAO contorsionniste
+Ses 25 degrés de liberté lui donnent une grande agilité. La progammation de mouvements complxes et de véritables chorégraphies sont définitivement à sa portée
+Chaque motoréducteur a été spécialement conçu pour Nao. Les engrenages sont en polymère chargé à 30% de fibres de coarbone pour éviter tout besoin de lubrification et assurer une meilleure résistance a l'asure
+Au dela des moteurs, des capteurs magnétiques de position(Magnetic Rotary Encoder) équipent chacune des articulations et donnent une information très précise sur l'angle de celles-ci. L'asservissement se fait toutes les millisecondes et les données articulaires(position et courant) sont remontées toutes les 10ms au processeur central.
+			
+Les mains de Nao
+Les deux mains de Nao sont équipées de 3 doigts indépendants qui consistituent une pince capable de saisir et de soulever des petits objets. Les moteurs des doigts et des poignets sont réversibles. Nao peut porter jusqu'a 300 grammes en utlisant ses deux mains.
+
+Autonome
+
+Toujours debout!
+Nao est équipé d'une centrale inertielle, composée d'un accéléromètre (3axes) et d'un gyromètre (2axes). Les voleurs transmises par la centrale sont récupérées et utilis"es pour donner à Nao un sens de l'équilibre. L'analyse des données de la centrale lui permet aussi de savoit s'il est soulevé du sol, couché sur le dos ou sur le ventre et ainsi d'initier une conématique pour se relever. Il peut aussi ajuster l'angle de son bassin s'il évolue sur un plan incliné.
+			
+Gestionnaire de chute
+Le gestionnaire de chute protege Nao en cas de chute. Sa principale fonction est de détecter le moment ou le centre de masse (CdM) de NAO sort du polygone de sustentation. Le polygone de sustentation est défini par la posotion du pied ou des pieds en contact avec le sol. Dès qu'une chute est détectée, toutes les taches de mouvement sont tuées et, en fonvtion de la direction, les bras de NAO prennent une position de protection, le CdmM est abaissé et la rigidité du robot est ramenée à zéro.
+			
+NAO évite les obstacles
+Equipé de deux paires d'émetteurs/recepteurs à ultra-sons sur le torse, Nao recoit en retour l'information sur plusieurs échos. Nao a ainsi conscience de la proximité ou pas, d'un ou plusieus obstacles. Les valeurs renvoyées par ces capteurs peuvent également etre ulilisées pour detecter un mouvement ou le passage d'un objet devant lui et meme s'il est sur sa gauche ou sur sa droite. Si un obstacleest trop bas pour etre détecté au niveau du trose (petite marche, objet posé au sol) des capteurs mécaniques placés à l'extrémité des pieds lui donnent un information absolue sur le contact avec cet obstacle, et il peut alors démarrer un comportement de contournement par exemple.
+
+En contact avec le sol
+Chacune des semelles de NAO sont équipéeq de 4 capteurs de pression (FSR). Les valeurs transmises permettent de déterminer la positon du centre du pied et ainsi de réagir de facon appropriée pour affiner l'équilibre de NAO.
+			

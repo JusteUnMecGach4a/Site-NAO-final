@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Présentation</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.PNG" alt="logo Poincaré">
+		<h1>
+			Site de ressources et d'informations sur NAO
+		</h1>
+	</header>
+	<nav>
+		<ul>
+			<li> <a href="index.html" title="Accueil">Accueil</a></li>
+
+			<li><a href="presentation.html" title="Présentation">Présentation</a> </li>
+			<li><a href="moteur.html" title="Moteurs">Moteurs</a></li>
+
+			<li><a href="developpement.html" title="développement">Développement</a>
+				<ul>
+				<li><a href="developpement.html#choregraphe" title="Chorégraphe">Chorégraphe</a></li>
+				<li><a href="developpement.html#videos" title="Vidéos">Vidéos</a></li>
+				<li><a href="developpement.html#scripts-python" title="Scripts Python">Scripts Python</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html" title="Contact">Contact</a></li>
+			<li><a href="compteRenduCss.pdf" title="Compte Rendu CSS">Compte Rendu CSS</a></li>
+		</ul>	
+	</nav>
+
+	<section>
+
+		<h2> Présentation de Nao </h2>
+		<p>NAO est un robot humanïde programmable de 58 cm de haut intégrant les composants suivants:</p>
+		<ol>
+		<li>Corps avec 25 degrés de liberté (DDL) dont les principaux éléments sont de smoteurs et actionneurs électriques</li>
+		<li>Réseau de capteurs; 2 caméras, 4microphones directionnels, télémètre sonar, 2 émetteurs et récepteurs IR, 1 carte inertielle, 9 capteurs tactiles et 8 capteurs de pression</li>
+		<li>Différents dispositifs de communication incluant synthetiseur vocal, lampes LED et 2 haut-parleurs haute-fidélité.</li>
+		<li>Processeur Intel ATOM 1,6 GHz (situé dans la tête) exploitant un noyau Linux et supportant le middleware exclusif d'Aldebaran (NAOqi).</li>
+		<li>Second CPU (situé dans le torse)</li>
+		<li>Batterie de 48.6 watt-heure conférant é NAO 1,5 heures ou plus d'autonomie, en fonction de l'usage
+		</li></ol>
+		<table border="1" >
+		  <tr>
+		  	<th colspan="2">Caractéristiques techniques</th>
+		  </tr>
+		  <tr>
+		    <td>Hauteur</td>
+		    <td>58 cm</td>
+		  </tr>
+		  <tr>
+		    <td>Masse</td>
+		    <td>4,8 kg</td>
+		  </tr>
+		  <tr>
+		    <td>Autonomie</td>
+		    <td>90 min</td>
+		  </tr>
+		  <tr>
+		    <td>Degrès de liberté</td>
+		    <td>14 à 25</td>
+		  </tr>
+		  <tr>
+		    <td>Processeur</td>
+		    <td>Intel Atom 1,6GHz (V4) ou AMD Geode 550 MHz (V3.3)</td>
+		  </tr>
+		  <tr>
+		    <td>Système d'exploitation intégré</td>
+		    <td>Linux</td>
+		  </tr>
+		  <tr>
+		    <td>Systèmes d'exploitation compatibles</td>
+		    <td>Windows, Mac OSn Linux</td>
+		  </tr>
+		  <tr>
+		    <td>Langages de programmation</td>
+		    <td>C++, Python, Java, MATLAB, Urbi, C, Net</td>
+		  </tr>
+		  <tr>
+		    <td>Connectivité</td>
+		    <td>Ethernet, Wi-Fi (b, g, n )</td>
+		  </tr>
+		  <tr>
+		    <td>Vision</td>
+		    <td>2 caméras 920p, 30 ips</td>
+		  </tr>
+		  <tr>
+		    <td>Audio</td>
+		    <td>4 Microphones</td>
+		  </tr>
+		</table>
+
+		<h2> Agile </h2>
+
+		<h3>NAO contorsionniste</h3>
+
+			<p> Ses 25 degrés de liberté lui donnent une grande agilité. La progammation de 	mouvements complxes et de véritables chorégraphies sont définitivement à sa  ortée
+			</p>
+			<p>	Chaque motoréducteur a été spécialement conçu pour Nao. Les engrenages sont en polymère chargé à 30% de fibres de coarbone pour éviter tout besoin de lubrification et assurer une meilleure résistance a l'asure
+			</p>
+			<p>Au dela des moteurs, des capteurs magnétiques de position(Magnetic Rotary Encoder) équipent chacune des articulations et donnent une information très précise sur l'angle de celles-ci. L'asservissement se fait toutes les millisecondes et les données articulaires(position et courant) sont remontées toutes les 10ms au processeur central.
+			</p>
+
+		<h3>Les mains de Nao</h3>
+
+			<p>Les deux mains de Nao sont équipées de 3 doigts indépendants qui consistituent une pince capable de saisir et de soulever des petits objets. Les moteurs des doigts et des poignets sont réversibles. Nao peut porter jusqu'a 300 grammes en utlisant ses deux mains.
+			</p>
+		<h2>Autonome</h2>
+
+		<h3>Toujours debout!</h3>
+
+		<p>
+			Nao est équipé d'une centrale inertielle, composée d'un accéléromètre (3axes) et d'un gyromètre (2axes). Les voleurs transmises par la centrale sont récupérées et utilis"es pour donner à Nao un sens de l'équilibre. L'analyse des données de la centrale lui permet aussi de savoit s'il est soulevé du sol, couché sur le dos ou sur le ventre et ainsi d'initier une conématique pour se relever. Il peut aussi ajuster l'angle de son bassin s'il évolue sur un plan incliné.
+		</p>
+
+		<h3> Gestionnaire de chute </h3>
+
+		<p> 
+			Le gestionnaire de chute protege Nao en cas de chute. Sa principale fonction est de détecter le moment ou le centre de masse (CdM) de NAO sort du polygone de sustentation. Le polygone de sustentation est défini par la posotion du pied ou des pieds en contact avec le sol. Dès qu'une chute est détectée, toutes les taches de mouvement sont tuées et, en fonvtion de la direction, les bras de NAO prennent une position de protection, le CdmM est abaissé et la rigidité du robot est ramenée à zéro.
+		</p>
+
+		<h3>NAO évite les obstacles</h3>
+
+		<p>
+			Equipé de deux paires d'émetteurs/recepteurs à ultra-sons sur le torse, Nao recoit en retour l'information sur plusieurs échos. Nao a ainsi conscience de la proximité ou pas, d'un ou plusieus obstacles. Les valeurs renvoyées par ces capteurs peuvent également etre ulilisées pour detecter un mouvement ou le passage d'un objet devant lui et meme s'il est sur sa gauche ou sur sa droite. Si un obstacleest trop bas pour etre détecté au niveau du trose (petite marche, objet posé au sol) des capteurs mécaniques placés à l'extrémité des pieds lui donnent un information absolue sur le contact avec cet obstacle, et il peut alors démarrer un comportement de contournement par exemple.
+		</p>
+
+		<h3>En contact avec le sol</h3>
+
+		<p>
+			Chacune des semelles de NAO sont équipéeq de 4 capteurs de pression (FSR). Les valeurs transmises permettent de déterminer la positon du centre du pied et ainsi de réagir de facon appropriée pour affiner l'équilibre de NAO.
+		</p>
+		<p> Site à visée pédagogique pour les étudiants de BTS CIEL du lycée Poincaré de Bar le Duc</p>
+
+		<p> Le contenu de ce site n'est pas destiné à une publication sur internet
+	</section>
+	<footer>
+		<p>
+			Site à visée pédagogique pour les étudiants de BTS CIEL du lycée Poincaré de BAR le DUC.
+		</p>
+		<p>
+			Le contenu de ce site n'est pas destiné à une publication sur internet.
+	</p>
+	</footer>
+</body>
+</html>
